@@ -1,35 +1,23 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex Card</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon/pokebola-56px.png" type="image/x-icon">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</head>
-<body>
+
     <h1>Pokédex Card</h1>
     <div class="poke-container">
         <div class="poke-principal" id="poke-principal">
             <div class="poke-imagem">
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Ivysaur"></img>
-            </div>
-            <div class="poke-info">
-                <span class="Numero">#25</span>
-                <h2 class="Nome">Pikachu</h2>
-                <small class="Tipo"><span>Eletricidade</span></small>
-            </div>
-        </div>
-        <div class="poke-principal" id="poke-principal">
-            <div class="poke-imagem">
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png" alt="Bulbasaur"></img>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Bulbasaur"></img>
             </div>
         
             <div class="poke-info">
+                <span class="Numero">#25</span>
+                <h2 class="Nome">Articuno</h2>
+                <small class="Tipo"><span>Gelo</span></small>
+        </div>
+        <div class="poke-principal" id="poke-principal">
+            <div class="poke-imagem">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png" alt="Ivysaur"></img>
+            </div>
+            <div class="poke-info">
                 <span class="Numero">#26</span>
-                <h2 class="Nome">Raichu</h2>
+                <h2 class="Nome">Zapdos</h2>
                 <small class="Tipo"><span>Eletricidade</span></small>
             </div>
         </div>
@@ -40,8 +28,8 @@
         
             <div class="poke-info">
                 <span class="Numero">#27</span>
-                <h2 class="Nome">Sandshrew</h2>
-                <small class="Tipo"><span>Terra</span></small>
+                <h2 class="Nome">Moltres</h2>
+                <small class="Tipo"><span>Fogo</span></small>
             </div>
         </div>
         <div class="poke-principal" id="poke-principal">
@@ -51,7 +39,7 @@
         
             <div class="poke-info">
                 <span class="Numero">#28</span>
-                <h2 class="Nome">Sandslash</h2>
+                <h2 class="Nome">Dratini</h2>
                 <small class="Tipo"><span>Terra</span></small>
             </div>
         </div>
@@ -62,8 +50,8 @@
         
             <div class="poke-info">
                 <span class="Numero">#29</span>
-                <h2 class="Nome">Nidoran</h2>
-                <small class="Tipo"><span>Poison</span></small>
+                <h2 class="Nome">Dragonite</h2>
+                <small class="Tipo"><span>Terra</span></small>
             </div>
         </div>
         <div class="poke-principal" id="poke-principal">
@@ -73,8 +61,8 @@
         
             <div class="poke-info">
                 <span class="Numero">#30</span>
-                <h2 class="Nome">Nidorina</h2>
-                <small class="Tipo"><span>Poison</span></small>
+                <h2 class="Nome">Mewtwo</h2>
+                <small class="Tipo"><span>Psíquico</span></small>
             </div>
         </div>
         <div class="poke-principal" id="poke-principal">
@@ -84,8 +72,8 @@
         
             <div class="poke-info">
                 <span class="Numero">#31</span>
-                <h2 class="Nome">Nidoqueen</h2>
-                <small class="Tipo"><span>Poison/Fogo</span></small>
+                <h2 class="Nome">Mew</h2>
+                <small class="Tipo"><span>Psíquico</span></small>
             </div>
         </div>
         <div class="poke-principal" id="poke-principal">
@@ -95,8 +83,8 @@
         
             <div class="poke-info">
                 <span class="Numero">#32</span>
-                <h2 class="Nome">Nidoran</h2>
-                <small class="Tipo"><span>Poison</span></small>
+                <h2 class="Nome">Chikorita</h2>
+                <small class="Tipo"><span>Planta</span></small>
             </div>
         </div> 
         <div class="poke-principal" id="poke-principal">
@@ -106,8 +94,8 @@
         
             <div class="poke-info">
                 <span class="Numero">#33</span>
-                <h2 class="Nome">Nidorino</h2>
-                <small class="Tipo"><span>Poison</span></small>
+                <h2 class="Nome">Bayleef</h2>
+                <small class="Tipo"><span>Planta</span></small>
             </div>
         </div> 
         <div class="poke-principal" id="poke-principal">
@@ -117,8 +105,8 @@
         
             <div class="poke-info">
                 <span class="Numero">#34</span>
-                <h2 class="Nome">Nidoking</h2>
-                <small class="Tipo"><span>Poison/Fogo</span></small>
+                <h2 class="Nome">Meganium</h2>
+                <small class="Tipo"><span>Planta</span></small>
             </div>
         </div> 
         <div class="poke-principal" id="poke-principal">
@@ -128,8 +116,8 @@
         
             <div class="poke-info">
                 <span class="Numero">#35</span>
-                <h2 class="Nome">Clefairy</h2>
-                <small class="Tipo"><span>Fada</span></small>
+                <h2 class="Nome">Cyndaquil</h2>
+                <small class="Tipo"><span>Fogo</span></small>
             </div>
         </div> 
         <div class="poke-principal" id="poke-principal">
@@ -139,28 +127,24 @@
         
             <div class="poke-info">
                 <span class="Numero">#36</span>
-                <h2 class="Nome">Vulpix</h2>
+                <h2 class="Nome">Quilava</h2>
                 <small class="Tipo"><span>Fogo</span></small>
             </div>
-        </div>  
+        </div> 
     </div> <!--container-->
     <footer>
         <div id="page1" class="page">Página 1</div>
         <div id="page2" class="page">Página 2</div>
         <div id="page3" class="page">Página 3</div>
 
-
-          <div id="anterior"><a href="index02.htm">
+         <div id="anterior"><a href="index02.htm">
             <button onclick="changePage(-1)">Anterior</button></a>
           </div>
           <div id="meio">
             <ion-icon name="arrow-back-circle-outline" class="esquerda"></ion-icon>
             <ion-icon name="arrow-forward-circle-outline" class="direita"></ion-icon>
           </div>
-          <div id="proximo"><a href="index.htm">
+          <div id="proximo"><a href="../index.htm">
             <button onclick="changePage(1)">Próximo</button></a>
           </div>
     </footer>
-</body>
-    <script src="interacao.js"></script>
-</html>
