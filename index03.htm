@@ -9,7 +9,7 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
-<div>
+<body>
     <h1>Pokédex Card</h1>
     <div class="poke-container">
         <div class="poke-principal" id="poke-principal">
@@ -145,20 +145,20 @@
         </div> 
     </div> <!--container-->
     <footer>
-        <div id="page1" class="page active">Página 1</div>
+        <div id="page1" class="page">Página 1</div>
         <div id="page2" class="page">Página 2</div>
         <div id="page3" class="page">Página 3</div>
-        
-        <div id="anterior"><a href="#fechou">
-          <button onclick="changePage(-1)">Anterior</button></a>
-        </div>
-        <div id="meio">
+
+         <div id="anterior"><a href="index02.htm">
+            <button onclick="changePage(-1)">Anterior</button></a>
+          </div>
+          <div id="meio">
             <ion-icon name="arrow-back-circle-outline" class="esquerda"></ion-icon>
             <ion-icon name="arrow-forward-circle-outline" class="direita"></ion-icon>
-        </div>
-        <div id="proximo"><a href="index02.htm">
-          <button onclick="changePage(1)">Próximo</button></a>
-        </div>
+          </div>
+          <div id="proximo"><a href="../index.htm">
+            <button onclick="changePage(1)">Próximo</button></a>
+          </div>
     </footer>
 </body>
     <script src="interacao.js"></script>

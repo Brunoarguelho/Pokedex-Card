@@ -17,10 +17,8 @@
 html body{
     min-height: 100%;
     width: 100%;
-    background: linear-gradient(to right, #57ebffab, #22ffedbd);
-    background-size: 100% 100%;
+    background: linear-gradient(to top, #ffffffc5, #84d4ff);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,12 +26,13 @@ html body{
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 3em;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-top: -30px;
+    margin-bottom: 10px;
     letter-spacing: 5px;
-    color: blue;
+    color: #333;
     font-family: 'pokemon',sans-serif;
     text-shadow: 3px 3px 2px rgba(255,255,255,0.15);
 }
@@ -56,9 +55,9 @@ h1{
     border: 1px solid #3333335d;
     border-radius: 10px;
     box-shadow: 0 1px 15px #80808095;
-    background-color: rgba(255, 255, 255, 0.742);
-    border-top: 5px solid #3333336c;
-    border-bottom: 5px solid #3333336c;
+    background: linear-gradient(to right, #00800046, #9fff9f7a);
+    border-top: 5px solid #333333bd;
+    border-bottom: 5px solid #333333bd;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,13 +67,13 @@ h1{
 
 .poke-principal:hover{
     transform: translateY(-10px) rotate(3deg);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.594);
+    box-shadow: 0 10px 20px #00000097;
 }
 
 .poke-imagem{
-    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 15px #00000014;
     border-radius: 5%;
-    background-color: rgba(255, 255, 255, 0.669);
+    background-color: #ffffff34;
     width: 90%;
 }
 
@@ -98,3 +97,71 @@ img{
     font-size: .8rem;
     font-family: 'Lato',sans-serif;
 }
+
+.page {
+    display: none;
+  }
+
+.page:active{
+    display: block;
+}
+
+footer{
+    width: 70%;
+    background-color: #00000016;
+    color: #fff;
+    padding: 10px;
+    margin: 50px auto 10px auto;
+    line-height: 1.1em;
+    border-radius: 5px;
+    border: 2px solid rgba(85, 255, 85, 0.114);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer button{
+    border: none;
+    outline: none;
+    background-color: #33333379;
+    padding: 5px 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer button:hover{
+    font-weight: bold;
+}
+
+footer,#anterior{
+   padding-left: 50px;
+}
+
+footer,#proximo{
+    padding-right: 50px;
+}
+
+footer .esquerda{
+    font-size: 2em;
+    color: #33333379;
+    position: absolute;
+    top: 10px;
+    left: 20%;
+}
+
+footer .direita{
+    font-size: 2em;
+    color: #33333379;
+    position: absolute;
+    top: 10px;
+    right: 20%;
+}
+
+
