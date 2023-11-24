@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato:wght@300&family=Montserrat:wght@300&family=Nabla&display=swap');
+
+@font-face {
+    font-family: 'pokemon';
+    src: url(fonts/Pokemon\ Hollow.ttf) format('truetype');
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html body{
+    min-height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #57ebffab, #22ffedbd);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing: 5px;
+    color: blue;
+    font-family: 'pokemon',sans-serif;
+    text-shadow: 3px 3px 2px rgba(255,255,255,0.15);
+}
+
+.poke-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.poke-principal{
+    width: 200px;
+    height: 300px;
+    margin: 5px 2px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #3333335d;
+    border-radius: 10px;
+    box-shadow: 0 1px 15px #80808095;
+    background-color: rgba(255, 255, 255, 0.742);
+    border-top: 5px solid #3333336c;
+    border-bottom: 5px solid #3333336c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.poke-principal:hover{
+    transform: translateY(-10px) rotate(3deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.594);
+}
+
+.poke-imagem{
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.669);
+    width: 90%;
+}
+
+img{
+    max-width: 90%;
+}
+
+.poke-info{
+    margin-top: 20px;
+}
+
+.poke-info >h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.poke-info >small{
+    font-size: .8rem;
+    font-family: 'Lato',sans-serif;
+}
