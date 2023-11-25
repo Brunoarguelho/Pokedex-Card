@@ -15,26 +15,28 @@
 }
 
 html body{
-    min-height: 100%;
+    min-height: 100vh;
     width: 100%;
-    background: linear-gradient(to top, #ffffffc5, #84d4ff);
-    background-repeat: no-repeat;
+    background: linear-gradient(to top, #ffffff9c, #b5e5ffbc);
+    background: url(imagens/fundo03.jpg);
+    background-repeat: repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h1{
-    font-size: 3em;
-    font-weight: 700;
-    text-align: center;
-    margin-top: -30px;
-    margin-bottom: 10px;
-    letter-spacing: 5px;
-    color: #333;
-    font-family: 'pokemon',sans-serif;
-    text-shadow: 3px 3px 2px rgba(255,255,255,0.15);
+h1 {
+   text-align: center;
+   width: 40%;
+   margin: 0 auto;
+   margin-top: -75px;
+   margin-bottom: -45px;
+}
+
+.poke-principal h2.Nome{
+    color: white;
+    font-family: monospace;
 }
 
 .poke-container{
@@ -83,6 +85,44 @@ img{
 
 .poke-info{
     margin-top: 20px;
+    color: whitesmoke;
+    font-weight: normal;
+}
+
+.terra{
+   background-color: maroon;
+}
+
+.fogo{
+   background-color: orangered;
+}
+
+.agua{
+   background-color: #1208af;
+}
+
+.inseto{
+   background-color: #57ac01;
+}
+
+.grama{
+   background-color: #006400;
+}
+
+.veneno{
+   background-color: #993399;
+}
+
+.voador{
+   background-color: rgb(125, 51, 51);
+}
+
+.raio{
+   background-color: #ffff2a;
+}
+
+.fada{
+   background-color: #ff667d;
 }
 
 .poke-info >h2{
@@ -108,7 +148,7 @@ img{
 
 footer{
     width: 70%;
-    background-color: #00000016;
+    background-color: #00000086;
     color: #fff;
     padding: 10px;
     margin: 50px auto 10px auto;
@@ -129,7 +169,7 @@ footer a{
 footer button{
     border: none;
     outline: none;
-    background-color: #33333379;
+    background-color: #333333a1;
     padding: 5px 10px;
     color: #fff;
     text-align: center;
@@ -150,7 +190,7 @@ footer,#proximo{
 
 footer .esquerda{
     font-size: 2em;
-    color: #33333379;
+    color: #ffffff61;
     position: absolute;
     top: 10px;
     left: 20%;
@@ -158,9 +198,66 @@ footer .esquerda{
 
 footer .direita{
     font-size: 2em;
-    color: #33333379;
+    color: #ffffff61;
     position: absolute;
     top: 10px;
     right: 20%;
 }
 
+/*----------media screen-------------------*/
+
+@media screen and (max-width: 860px) {
+    h1 {
+        width: 40%;
+        margin: 0 auto;
+        margin-top: -35px;
+        margin-bottom: -25px;
+     }
+
+    footer .esquerda{
+        top: 8px;
+        left: 11%;
+    }
+    
+    footer .direita{
+        top: 8px;
+        right: 11%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    h1 {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: -20px;
+        margin-bottom: -5px;
+    }
+
+    .poke-container{
+        max-width: 200px;
+    }
+
+    .poke-principal{
+        padding: 10px;
+    }
+
+    footer{
+        width: 100vw;
+    }
+
+    footer,#anterior{
+        padding-left: 10px;
+     }
+     
+     footer,#proximo{
+         padding-right: 10px;
+     }
+
+     footer .esquerda{
+        left: 28%;
+    }
+    
+    footer .direita{
+        right: 28%;
+    }
+}
